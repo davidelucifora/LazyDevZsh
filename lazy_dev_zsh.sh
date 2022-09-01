@@ -1,8 +1,26 @@
 #!/bin/zsh
 
+#Installation. 
+
+# Retrieve current file name
+ME=$(basename "$0")
+
+# Add current file to the once sourced by .zprofile
+printf "\nsource ~/$ME" >> $PWD/.zprofile && echo
+
+# Success message
+if grep -q "$ME" "$PWD/.zprofile"; then
+  echo 'Seems like it worked!'
+fi
+
+
+### The actual Commands ###
+
+
 # File navigation
 
-# Mkdir + CD first argument
+
+# Mkdir + CD dir
 
 function mkcdir()
 {
