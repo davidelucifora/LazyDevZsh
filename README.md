@@ -7,7 +7,7 @@ Ever found yourself repeating your commands over and over again when creating a 
 
 ## Installation 
 
-### If you are running zsh on a newer Macbook: 
+### If you are running ZSH: 
 
 Simply copy lazy_dev_zsh.sh to your home directory in terminal and run 
 
@@ -17,14 +17,14 @@ zsh lazy_dev_zsh.sh
 This should add the aliases and functions in the file to your .zprofile.
 
 **Warning**
-:warning: This tool was developed for Macbooks using ZSH and it will edit the .zprofile file in your home directory. If you use a different shell like BASH, KSH etc. Follow this steps instead.
+:warning: If you use a different shell like BASH, KSH etc. Follow these steps instead.
 
 #### If you are using BASH, KSH, or other shells:
 
 You can still add these aliases and functions to your local environment. 
 
 1. Head to the `lazy_dev_zsh.sh` file in this repo and copy the contents of the actual commands and *NOT* the installation script
-2. Paste the commands at the end of your `~/.bashrc` file.
+2. Paste the commands at the end of your `~/.bashrc` file or whatever is the bash profile file in your machine.
 3. Enjoy.
 
 ## Usage
