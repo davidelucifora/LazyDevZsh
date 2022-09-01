@@ -41,15 +41,18 @@ This adds new commands to your terminal to speed up your developer work flow.
 2. `gadd` is the same as `git add .`
 3. `gipom` is the same as `git push origin main`
 
-4. `lazygit 'MESSAGE'` runs the following:
-```git add . 
+4. ` lazygit 'MESSAGE' `runs the following:
+```console
+git add . 
 git commit . -m MESSAGE 
-git push origin master```
+git push origin master
+```
 
 #### Vite workflow
 
 Run `spin-vite-app YOUR_APP_NAME` and the script will run the following: 
-```
+
+```console
 npm create vite@latest "YOUR_APP_NAME"
 cd YOUR_APP_NAME
 npm install
