@@ -2,7 +2,7 @@
 A few simple zsh aliases to make a dev's workflow faster.
 
 ## Description
-LazyDevZsh si for devs who hate repeating themselves when using the terminal.
+LazyDevZsh is for devs who hate repeating themselves when using the terminal.
 Ever found yourself repeating your commands over and over again when creating a project or using Git? Well here's your solution.
 
 ## Installation 
