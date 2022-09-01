@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-#Installation. 
+# Installation. 
+# DO NOT COPY THIS PART IF MANUALLY INSTALLING IN YOUR SHELL PROFILE FILE.
 
 # Retrieve current file name
 ME=$(basename "$0")
@@ -13,12 +14,13 @@ if grep -q "$ME" "$PWD/.zprofile"; then
   echo 'Seems like it worked!'
 fi
 
+### End of Installation ###
 
 ### The actual Commands ###
 
+### Copy ONLY the commands below to your BASH profile file ###
 
 # File navigation
-
 
 # Mkdir + CD dir
 
