@@ -11,7 +11,7 @@ Ever found yourself repeating your commands over and over again when creating a 
 
 Simply copy lazy_dev_zsh.sh to your home directory in terminal and run 
 
-`zsh lazy_dev_zsh.sh`.
+```console zsh lazy_dev_zsh.sh```.
 This should add the aliases and functions in the file to your .zprofile.
 
 **Warning**
