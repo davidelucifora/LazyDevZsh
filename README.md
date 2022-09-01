@@ -1,7 +1,7 @@
 # LazyDevZsh
 A few simple zsh aliases to make a dev's workflow faster.
 
-### Description
+## Description
 LazyDevZsh si for devs who hate repeating themselves when using the terminal.
 Ever found yourself repeating your commands over and over again when creating a project or using Git? Well here's your solution.
 
@@ -17,7 +17,7 @@ This should add the aliases and functions in the file to your .zprofile.
 **Warning**
 :warning: This tool was developed for Macbooks using ZSH and it will edit the .zprofile file in your home directory. If you use a different shell like BASH, KSH etc. Follow this steps instead.
 
-*** I am using BASH, KSH, or other shells
+#### If you are using BASH, KSH, or other shells:
 
 You can still add these aliases and functions to your local environment. 
 
