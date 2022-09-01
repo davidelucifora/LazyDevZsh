@@ -6,18 +6,16 @@
 # Retrieve current file name
 ME=$(basename "$0")
 
-# Add current file to the once sourced by .zprofile
-printf "\nsource ~/$ME" >> $PWD/.zprofile && echo
 
-# Success message
-if grep -q "$ME" "$PWD/.zprofile"; then
-  echo 'Seems like it worked!'
+if !  grep -q "$ME" "$PWD/.zprofile"; then  
+# Add current file to the ones sourced by .zprofile
+printf "\nsource ~/$ME" >> $PWD/.zprofile && echo
 fi
 
 ### End of Installation ###
 
-### The actual Commands ###
 
+### The actual Commands ###
 ### Copy ONLY the commands below to your BASH profile file ###
 
 # File navigation
