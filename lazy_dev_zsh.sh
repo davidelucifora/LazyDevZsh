@@ -51,3 +51,6 @@ function spin-vite-app()
 	npm run dev
 }
 
+# Launch VSCode and dev server
+
+alias codenrun="code . && npm run dev"
