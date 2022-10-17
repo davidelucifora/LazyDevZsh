@@ -54,3 +54,10 @@ function spin-vite-app()
 # Launch VSCode and dev server
 
 alias codenrun="code . && npm run dev"
+
+# Create React File
+
+function touchreact()
+{
+	touch $1 && echo "import React from 'react'" >> $1
+}
